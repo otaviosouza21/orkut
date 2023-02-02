@@ -1,0 +1,10 @@
+@import './global/reset.css';
+@import './global/header.css';
+
+
+@import './utilidades/cores.css';
+@import './utilidades/fontes.css';
+
+@import './login/login.css';
+
+@import './home/home.css';

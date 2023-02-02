@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  font-family: 'SF Pro Display' ,  sans-serif;
+  background-color: #D9E6F7;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  
+}
+

@@ -1,0 +1,139 @@
+.login{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  gap: 32px;
+  
+}
+
+
+.login-imagem{
+  display: grid;
+}
+
+.login-imagem img{
+  grid-area: 1/1;
+  border-radius: 20px;
+  object-fit: cover;
+  min-width: 600px;
+}
+
+.login-imagem h1{
+padding: 32px;
+grid-area: 1/1;
+place-self: end start;
+margin-bottom: 10px;
+}
+
+.login-formulario{
+  background-color: var(--cor-bc-1);
+  padding: 48px 24px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.login-formulario img{
+  margin: 0 auto;
+  max-width: 32px;
+  margin-bottom: 16px;
+}
+
+.login-formulario h2{
+  margin-bottom: 40px ;
+  text-align: center;
+}
+
+.login-formulario input{
+  box-sizing: border-box;
+  width: 100%;
+  background-color: var(--cor-cz-1);
+  border: none;
+  border-radius:8px;
+  padding: 16px;
+  margin-bottom: 25px;
+font: 300 1.125rem/1.15 'SF Pro Display' ,  sans-serif;
+}
+
+.login-formulario input:focus{
+  outline: 1px solid var(--cor-rz);
+}
+
+.login-formulario span{
+  text-align: start;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.login-formulario span::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--cor-rz);
+  border: solid 2px var(--cor-cz-2);
+  border-radius: 4px;
+ box-shadow: inset 0px 0px 0px 2px #fff,inset 0px 0px 0px 1px #fff;
+}
+
+
+.login-formulario .btn-1{
+  display: block;
+  background-color: var(--cor-rz);
+  border-radius: 8px;
+  padding: 15px 109px;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+
+.login-formulario .btn-1:hover{
+  background-color: rgb(231, 16, 131);
+}
+
+
+.btn-2{
+  display: block;
+  background-color: var(--cor-cz-1);
+  border-radius: 8px;
+  padding: 15px 109px;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.login-formulario .btn-2:hover{
+  background-color: rgba(214, 213, 213, 0.486);
+}
+
+.link{
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+}
+
+@media (max-width:1200px){
+  .login{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:660px){
+
+  .login-imagem img{
+    display: none;
+  }
+
+  .login-imagem h1{
+    display: none;
+  }
+
+  .login{
+    margin-top: 60px;
+  }
+}

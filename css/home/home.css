@@ -1,0 +1,161 @@
+.home{
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+ margin-top: 80px;
+ gap: 32px;
+ margin-bottom: 90px;
+}
+
+.home-perfil{
+  background-color: var(--cor-bc-1);
+  padding: 31px;
+text-align: center;
+border-radius: 16px;
+margin-bottom: 32px;
+}
+
+.home-perfil img{
+  max-width: 170px;
+  border-radius: 50%;
+  border: solid 4px #fff;
+  outline: solid 3px var(--cor-rz);
+  margin: 0 auto 27px auto;
+}
+
+.home-perfil h2{
+  margin-bottom: 24px;
+}
+
+#editar{
+  background-color: var(--cor-bc-1);
+  padding: 16px;
+}
+
+.home-informacoes{
+  background-color: var(--cor-bc-1);
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.home-informacoes h1{
+  margin-bottom: 25px;
+}
+
+.home-informacoes p{
+  background-color: var(--cor-cz-1);
+  padding: 9px 12px;
+  border-radius: 10px;
+  margin-bottom: 43px;
+  position: relative;
+}
+
+.home-informacoes p::before{
+  content: "";
+  display: inline-block;
+  width: 0px; 
+  height: 0px; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 17px solid var(--cor-cz-1);
+  position: absolute;
+  top: -10px;
+}
+
+.home-hate{
+  display: flex;
+  gap: 35px;
+  margin-bottom: 35px;
+}
+
+.home-hate li{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.home-icon{
+  display: flex;
+ align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+
+}
+
+.home-dados li{
+  color: var(--cor-cz-2);
+  margin-bottom: 24px;
+}
+
+.home-dados li span{
+  color: var(--cor-cz-4);
+  padding-left: 10px;
+}
+
+.home-dados li:nth-child(n +13) span:last-child{
+  color: var(--cor-rz);
+}
+
+
+.home-dados li:nth-child(n +13){
+ display: flex;
+ gap: 10px;
+}
+
+.border{
+ border: solid 2px var(--cor-rz);
+ padding: 1px 15px;
+ border-radius: 16px;
+ text-align: center;
+}
+
+.home-paginas{
+  background-color: var(--cor-bc-1);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.home-paginas h3{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.home-paginas ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+text-align: center;
+gap: 20px;
+}
+
+.home-paginas ul li{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+}
+
+.home-paginas ul li img{
+  max-width: 56px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+article{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+.amigos{
+  margin-bottom: 32px;
+}
+
+
+
+@media (max-width:1060px){
+.home{
+  grid-template-columns: 1fr;
+}
+
+}
