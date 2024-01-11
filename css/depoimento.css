@@ -9,7 +9,7 @@
     gap: 2rem;
     /*margin-bottom: 5.62rem;*/
     margin-top: -30rem;
-    margin-left: 1rem;
+    /*margin-left: 1rem;*/
 
     background-color: var(--cor-bc-1);
     padding: 1.93rem;
@@ -19,8 +19,7 @@
 
     width: 300px;
     height: 385px;
-
-
+     
     /*display: grid;*/
     /*grid-template-columns: 2fr 3fr 2fr;*/
     
@@ -29,7 +28,7 @@
 
 /*Título da seção: Depoimentos*/
 .h1_depoimentos {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-top: -1rem;
     font-size: 1.2rem;
 
@@ -39,7 +38,10 @@
 .article_depoimento {
     display: flex;
     flex-direction: row;
-    margin-top: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 0rem;
+    padding-top: 1.5rem;
+
     
         
 }
@@ -47,10 +49,21 @@
 /*Imagem de cada perfil do depoimento*/
 .img_depoimento {
     /*max-width: 170px;*/
-    max-width: 5rem; /*80px*/
+    max-width: 4rem; /*80px*/
     border-radius: 50%;
     border: solid 4px #fff;
-    margin: 0 auto 27px auto;
+    /*margin: 20px auto 10px auto;*/
+    margin: 1.12rem auto 0.62rem auto;
+
+    
+}
+
+/*Li pra img e span nome do perfil*/
+.li_img_span_nome {
+    display: block;
+    flex-direction: block;
+    margin-top: 1rem;
+
 }
 
 /*Nome de cada perfil que fez o depoimento*/
@@ -58,14 +71,16 @@
     /*padding-top: 6rem;*/
     color: rgba(0, 0, 255, 0.801);
     cursor: pointer;
-    
+          
 
 }
 
 /*Depoimento de cada perfil*/
 .depoimento_profile {
     margin-left: 2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    font-size: .9rem;
+    text-align: left;
 
 }
 
@@ -81,12 +96,12 @@
         width: 800px;
         height: auto;
         margin-left: 0rem;
-        margin-right: 1rem;
+        margin-right: 0rem;
     }
 
     /*Título da seção: Depoimentos*/
     .h1_depoimentos {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         margin-top: 1rem;
         font-size: 1.2rem;
         text-align: left;
@@ -97,7 +112,9 @@
     .article_depoimento {
         display: flex;
         flex-direction: row;
-        margin-top: 1rem;
+        margin-top: -1rem;
+        margin-bottom: 0rem;
+        padding-top: 1.8rem;
         
     }
 
@@ -108,8 +125,16 @@
         border-radius: 50%;
         border: solid 4px #fff;
         /*margin: 0 auto 27px auto;*/
-        margin: 0 10rem 1.68rem auto;
+        margin: 0 10rem 1rem auto;
         margin-left: 1rem;
+    }
+
+    /*Li pra img e span nome do perfil*/
+    .li_img_span_nome {
+        display: block;
+        flex-direction: block;
+        margin-top: 1rem;
+
     }
 
     
@@ -125,9 +150,12 @@
 
     /*Depoimento de cada perfil*/
     .depoimento_profile {
-        margin-left: 1rem;
-        margin-top: 1rem;
+        margin-left: -8rem;
+        margin-top: 3rem;
         text-align: left;
+        font-size: .9rem;
+        text-align: left;
+
 
     }
 
