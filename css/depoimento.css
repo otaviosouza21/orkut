@@ -41,7 +41,7 @@
     flex-direction: row;
     margin-top: 1rem;
     
-    
+        
 }
 
 /*Imagem de cada perfil do depoimento*/
@@ -67,4 +67,72 @@
     margin-left: 2rem;
     margin-top: 1rem;
 
+}
+
+    /*RESPONSIVIDADE*/
+
+@media (max-width:1060px){
+    
+    /*Div depoimentos*/
+    .depoimentos{
+        grid-template-columns: 1fr;
+        margin-top: .9rem;
+        padding: 24px;
+        width: 800px;
+        height: auto;
+        margin-left: 0rem;
+        margin-right: 1rem;
+    }
+
+    /*Título da seção: Depoimentos*/
+    .h1_depoimentos {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        text-align: left;
+
+    }
+
+    /*Article com os depoimentos*/
+    .article_depoimento {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+        
+    }
+
+    /*Imagem de cada perfil do depoimento*/
+    .img_depoimento {
+        /*max-width: 170px;*/
+        max-width: 5rem; /*80px*/
+        border-radius: 50%;
+        border: solid 4px #fff;
+        /*margin: 0 auto 27px auto;*/
+        margin: 0 10rem 1.68rem auto;
+        margin-left: 1rem;
+    }
+
+    
+    /*Nome de cada perfil que fez o depoimento*/
+    .nome_profile_depoimento {
+        /*padding-top: 6rem;*/
+        color: rgba(0, 0, 255, 0.801);
+        cursor: pointer;
+        margin-left: -10rem;
+
+    
+    }
+
+    /*Depoimento de cada perfil*/
+    .depoimento_profile {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        text-align: left;
+
+    }
+
+
+
+       
+    
 }
